@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- Responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Guest Blogging</title>
+
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="keywords" content="">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="./css/fontawesome/css/solid.css" />
+  <link rel="stylesheet" href="./css/fontawesome/css/fontawesome.css">
+  <link rel="stylesheet" href="css/themify-icons/themify-icons.css" />
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+
+  <script>
+    (function (document) {
+      'use strict';
+
+      var TableFilter = (function (myArray) {
+        var search_input;
+
+        function _onInputSearch(e) {
+          search_input = e.target;
+          var tables = document.getElementsByClassName(search_input.getAttribute('data-table'));
+          myArray.forEach.call(tables, function (table) {
+            myArray.forEach.call(table.tBodies, function (tbody) {
+              myArray.forEach.call(tbody.rows, function (row) {
+                var text_content = row.textContent.toLowerCase();
+                var search_val = search_input.value.toLowerCase();
+                row.style.display = text_content.indexOf(search_val) > -1 ? '' : 'none';
+              });
+            });
+          });
+        }
+
+        return {
+          init: function () {
+            var inputs = document.getElementsByClassName('search-input');
+            myArray.forEach.call(inputs, function (input) {
+              input.oninput = _onInputSearch;
+            });
+          }
+        };
+      })(Array.prototype);
+
+      document.addEventListener('readystatechange', function () {
+        if (document.readyState === 'complete') {
+          TableFilter.init();
+        }
+      });
+
+    })(document);
+  </script>
+</head>
+
+<body>
+  <div class="At-wrapper">
+    <div class="container-fluid">
+      <div class="Search_Document" style="height: 60px;">
+        <div class="d-flex">
+          <div class="input-group  SearchDocuments mb-3 mr-auto">
+            <span class="ti-search"></span>
+            <input type="text" class="SearchDocuments_input search-input" placeholder="Search Documents"
+              data-table="customers-list" />
+          </div>
+          <a href="#" class="btn New_Btn">
+            + New
+          </a>
+        </div>
+      </div>
+
+      <div class="Recent_Document mt-2">
+        <h1 class="RecentDocuments_heading">Recent Documents</h1>
+        <!-- table -->
+        <table class="table table-hover table-responsive-sm customers-list">
+          <thead>
+            <tr>
+              <th scope="col">
+                <div class="name_text1">
+                  Name
+                  <img src="images/fluent_arrow-sort-16-regular.png" alt="images not found" class="four" />
+                </div>
+              </th>
+              <th scope="col">
+                <div class="name_text2">
+                  Similiarity Score
+                  <img src="images/fluent_arrow-sort-16-regular.png" alt="images not found" class="four" />
+                </div>
+              </th>
+              <th scope="col">
+                <div class="name_text">
+                  Words
+                  <img src="images/fluent_arrow-sort-16-regular.png" alt="images not found" class="four" />
+                </div>
+              </th>
+            </tr>
+          </thead>
+          <!-- table body -->
+          <tbody>
+            <tr id="background_id" class="table-secondary">
+              <th scope="row" class="Marvel_text">
+                <img src="images/gg_file-document (1).png" alt="images not found" class="Dashboard_images" />
+                Stranger Things: Season 4 - Release Date
+              </th>
+              <td>
+                <div class="row justify-content-end text-right mr-0 pr-3">
+                  <p class="ago_text">10hr ago</p>
+                  <span class="precent_digit ">22%</span>
+                </div>
+              </td>
+              <td>
+                <div class="row justify-content-end text-right mr-0 pr-3">
+                  <p class="words_text">540 words</p>
+                </div>
+              </td>
+              <td>
+                <div class="row justify-content-end text-right mr-0 pr-3">
+                  <div class="d-flex">
+                    <button class="btn Download_btn">Download</button>
+                    <div class="dropdown dropleft">
+                      <button class="btn ellipsisbtn_icon " type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-ellipsis-h" id="ellipsis_icon"></i>
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">
+                          <i class="fas fa-external-link-alt" id="dropdrownicon"></i>Open</a>
+                        <a class="dropdown-item" href="#">
+                          <span class="ti-marker-alt" id="dropdrownicon"></span> Rename</a>
+                        <a class="dropdown-item" href="#">
+                          <i class="fas fa-file-alt" id="dropdrownicon"></i>Google docs</a>
+                        <a class="dropdown-item" href="#"><span class="ti-sharethis" id="dropdrownicon"></span>
+                          Share</a>
+                        <a class="dropdown-item" href="#"><span class="ti-trash" id="dropdrownicon"></span> Delete</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <th scope="row" class="Marvel_text">
+                <img src="images/gg_file-document (1).png" alt="images not found" class="Dashboard_images" />
+                Avengers Endgame - Release Date
+              </th>
+              <td>
+                <div class="row justify-content-end text-right mr-0 pr-3">
+                  <p class="ago_text">10hr ago</p>
+                  <span class="precent_digit ">22%</span>
+                </div>
+              </td>
+              <td>
+                <div class="row justify-content-end text-right mr-0 pr-3">
+                  <p class="words_text">540 words</p>
+                </div>
+              </td>
+              <td>
+                <div class="row justify-content-end text-right mr-0 pr-3">
+                  <div class="d-flex">
+                    <button class="btn Download_btn">Download</button>
+                    <div class="dropdown dropleft">
+                      <button class="btn ellipsisbtn_icon " type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-ellipsis-h" id="ellipsis_icon"></i>
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">
+                          <i class="fas fa-external-link-alt" id="dropdrownicon"></i>Open</a>
+                        <a class="dropdown-item" href="#">
+                          <span class="ti-marker-alt" id="dropdrownicon"></span> Rename</a>
+                        <a class="dropdown-item" href="#">
+                          <i class="fas fa-file-alt" id="dropdrownicon"></i>Google docs</a>
+                        <a class="dropdown-item" href="#"><span class="ti-sharethis" id="dropdrownicon"></span>
+                          Share</a>
+                        <a class="dropdown-item" href="#"><span class="ti-trash" id="dropdrownicon"></span> Delete</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <th scope="row" class="Marvel_text">
+                <img src="images/gg_file-document (1).png" alt="images not found" class="Dashboard_images" />
+                Marvel’s Eternals - Release Date
+              </th>
+              <td>
+                <div class="row justify-content-end text-right mr-0 pr-3">
+                  <p class="ago_text">10hr ago</p>
+                  <span class="precent_digit ">22%</span>
+                </div>
+              </td>
+              <td>
+                <div class="row justify-content-end text-right mr-0 pr-3">
+                  <p class="words_text">540 words</p>
+                </div>
+              </td>
+              <td>
+                <div class="row justify-content-end text-right mr-0 pr-3">
+                  <div class="d-flex">
+                    <button class="btn Download_btn">Download</button>
+                    <div class="dropdown dropleft">
+                      <button class="btn ellipsisbtn_icon " type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-ellipsis-h" id="ellipsis_icon"></i>
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">
+                          <i class="fas fa-external-link-alt" id="dropdrownicon"></i>Open</a>
+                        <a class="dropdown-item" href="#">
+                          <span class="ti-marker-alt" id="dropdrownicon"></span> Rename</a>
+                        <a class="dropdown-item" href="#">
+                          <i class="fas fa-file-alt" id="dropdrownicon"></i>Google docs</a>
+                        <a class="dropdown-item" href="#"><span class="ti-sharethis" id="dropdrownicon"></span>
+                          Share</a>
+                        <a class="dropdown-item" href="#"><span class="ti-trash" id="dropdrownicon"></span> Delete</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </td>
+            </tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

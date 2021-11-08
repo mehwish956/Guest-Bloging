@@ -1,0 +1,497 @@
+@media (max-width: 1024px) {
+  .name_text1 {
+    margin-left: 0rem;
+  }
+  .name_text2 {
+    margin-left: 0rem;
+  }
+  .name_text {
+    margin-left: 0rem;
+  }
+  .dashboardCard_div {
+    width: 182px;
+  }
+  .dashboard_div {
+    width: 176px;
+  }
+  .Dashboard_button {
+    width: 154px;
+  }
+  .Username_text {
+    margin-left: 10px;
+  }
+  .Username_text {
+    font-size: 11px;
+  }
+  .google_text {
+    font-size: 11px;
+    margin: 8px 0px 0px 15px;
+  }
+  .google {
+    width: 20px;
+    height: 20px;
+  }
+  #Phone_No {
+    width: 100%;
+  }
+  #Phone_No1 {
+    width: 89%;
+    margin-left: -40px;
+  }
+  .form-item input {
+    width: 76%;
+  }
+  .ti-eye {
+    font-size: 15px;
+  }
+  .BlogBuilder_title1 {
+    padding: 10px 10px;
+  }
+  #ti-save {
+    font-size: 16px;
+  }
+  #ti-save {
+    font-size: 14px;
+  }
+
+  .keywords_digit1 {
+    top: 17rem;
+    left: 11.25rem;
+  }
+  .WriteForMe_btn {
+    width: 87%;
+    margin-left: 15px;
+  }
+  .ti-angle-down {
+    font-size: 14px;
+  }
+  .autorenew {
+    width: 21px;
+    margin-top: 4px;
+    left: 1.25rem;
+  }
+  .autorenew1 {
+    width: 21px;
+    margin-top: 4px;
+    margin-left: -14px;
+  }
+}
+@media (max-width: 768px) {
+  .Dashboard_button {
+    margin-top: 1rem;
+  }
+  #two {
+    margin-top: 6rem;
+  }
+  .dashboard_div {
+    width: 100%;
+    height: 100px;
+  }
+  .dashboardCard_div {
+    width: 161px;
+  }
+  .Username {
+    background: #f0f3f7;
+    height: 62px;
+  }
+  .ti-save {
+    width: 22px;
+    margin-top: 5px;
+  }
+
+  .keywords_digit1 {
+    left: 42.25rem;
+  }
+  .WriteForMe_btn {
+    width: 96%;
+  }
+
+  #fa-italic {
+    font-size: 15px;
+  }
+  #ti-list-ol {
+    font-size: 21px;
+  }
+  .Vector {
+    width: 46%;
+  }
+  .Blog_post {
+    width: 54%;
+    margin-left: 9rem;
+  }
+  .form {
+    margin: 0px;
+  }
+  .form-item input {
+    width: 114%;
+  }
+  #Phone_No1 {
+    width: 93%;
+    margin-left: 55px;
+  }
+  #Phone_No {
+    width: 99%;
+  }
+  .google_div {
+    width: 97%;
+  }
+  .signInOr_div {
+    margin-left: 65px;
+  }
+  .RecentDocuments_heading {
+    font-size: 18px;
+  }
+
+  .name_text {
+    font-size: 14px;
+  }
+  .table td,
+  .table th {
+    padding: 19px 0px 0px 7px;
+  }
+  .Dashboard_images {
+    margin-right: 2px;
+  }
+  .Marvel_text {
+    font-size: 11px;
+    line-height: 15px;
+  }
+  .Dashboard_images {
+    width: 0px;
+  }
+}
+@media (max-width: 578px) {
+  .RecentDocuments_heading {
+    font-size: 16px;
+  }
+  .New_Btn {
+    font-size: 10px;
+  }
+  .Search_Document {
+    height: 63px;
+  }
+  .ago_text {
+    margin-bottom: 0px;
+  }
+  .ago_text {
+    font-size: 0px;
+  }
+  .SearchDocuments_input {
+    font-size: 12px;
+  }
+  .name_text {
+    width: 260%;
+
+    font-size: 10px;
+  }
+  .words_text {
+    width: 85px;
+    font-size: 6px;
+  }
+  .Download_btn {
+    font-size: 9px;
+    padding: 5px 10px 6px 10px;
+  }
+  .ellipsisbtn_icon {
+    width: 29px;
+    height: 31px;
+  }
+
+  #ellipsis_icon {
+    left: 7px;
+  }
+
+  .dashboardCard_div {
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .Username {
+    height: 234px;
+  }
+  .GeneratedWords_count1 {
+    height: 353px;
+  }
+  .Search_Document {
+    height: 85px;
+  }
+
+  .keywords_digit1 {
+    left: 30.25rem;
+  }
+
+  .Blog_post {
+    margin-left: 6rem;
+  }
+  .SignIn_heading {
+    font-size: 25px;
+  }
+  .form-item input {
+    width: 94%;
+  }
+  #Phone_No {
+    width: 100%;
+  }
+  .signInOr_div {
+    margin-left: 2px;
+    width: 181px;
+  }
+  .signInOr_div1 {
+    width: 160px;
+  }
+  .SignIn_Button {
+    width: 98%;
+  }
+  .SignIn_btn {
+    font-size: 13px;
+  }
+
+  .Email {
+    font-size: 13px;
+  }
+  #Phone_No1 {
+    width: 97%;
+    margin-left: 14px;
+  }
+  .form {
+    width: 409px;
+  }
+  .Forgot_password {
+    font-size: 13px;
+  }
+  .WORDS_text3 {
+    border-bottom: 1px solid #e5e5e5;
+  }
+  .WORDS_text3 {
+    height: 82px;
+  }
+  .WORDS_text1 {
+    padding-top: 10px;
+  }
+  .Search_Document {
+    height: 90px;
+  }
+  .SignIn_heading1 {
+    font-size: 18px;
+    margin-top: 0rem;
+    line-height: 9px;
+  }
+  .reset_password {
+    font-size: 14px;
+    line-height: 10px;
+    margin-top: 18px;
+  }
+  .ti-eye {
+    right: 3rem;
+  }
+  .name_text1 {
+    width: 260%;
+    font-size: 10px;
+  }
+  .name_text2 {
+    width: 260%;
+    font-size: 10px;
+  }
+}
+@media (max-width: 414px) {
+  .reset_password {
+    font-size: 13px;
+    letter-spacing: 0px;
+  }
+  .SearchDocuments_input {
+    font-size: 11px;
+    padding: 10px 0px 10px 29px;
+  }
+  .ti-search {
+    font-size: 13px;
+    left: 11px;
+    top: 14px;
+  }
+  .Search_Document {
+    height: 84px;
+  }
+  .RecentDocuments_heading {
+    font-size: 13px;
+    line-height: 26px;
+  }
+
+  .dashboard_logo1 {
+    font-size: 14px;
+    margin-left: 0rem;
+  }
+  .Day {
+    font-size: 10px;
+  }
+  .dashboardprecent_text {
+    font-size: 13px;
+  }
+  .TITLE_heading {
+    font-size: 14px;
+    line-height: 41px;
+  }
+  .TITLE_heading1 {
+    margin-top: 1rem;
+    font-size: 12px;
+  }
+  .custom-select {
+    font-size: 12px;
+  }
+  .Vector {
+    width: 68%;
+    margin-right: 10px;
+  }
+  #fa-italic {
+    font-size: 13px;
+  }
+  .Normal {
+    width: 41%;
+  }
+  .ti-save {
+    width: 19px;
+    margin-top: 0px;
+  }
+  .keywords_digit {
+    top: 12rem;
+  }
+  .keywords_digit1 {
+    top: 18.75rem;
+    left: 20.75rem;
+  }
+  .WriteForMe_btn {
+    width: 93%;
+  }
+
+  #ti-list {
+    margin-top: 7px;
+    margin-left: 1rem;
+  }
+  #fa-italic {
+    margin-left: 1rem;
+  }
+  #ti-list-ol {
+    font-size: 16px;
+  }
+  .Blog_post {
+    margin-left: 4rem;
+  }
+  .SignIn_div {
+    padding-left: 0px;
+  }
+  .SignIn_heading {
+    font-size: 18px;
+    margin-top: 0px;
+  }
+  .google_div {
+    width: 100%;
+  }
+  .google {
+    width: 18px;
+    height: 18px;
+    margin: 10px 0px 10px 18px;
+  }
+  .form {
+    width: 312px;
+  }
+  .SignIn_Button {
+    width: 100%;
+  }
+  .google_text {
+    margin: 5px 0px 0px 15px;
+  }
+  .Or_Text {
+    font-size: 11px;
+  }
+  .form-item input {
+    height: 40px;
+  }
+  .form-item label {
+    top: 12px;
+    font-size: 11px;
+  }
+  #Phone_No1 {
+    width: 96%;
+  }
+
+  .SignIn_btn {
+    font-size: 11px;
+    line-height: 21px;
+  }
+  .Email {
+    font-size: 11px;
+    line-height: 7px;
+  }
+  .withText {
+    font-size: 11px;
+  }
+  .Forgot_password {
+    font-size: 11px;
+    margin-right: 1rem;
+  }
+  .ti-eye {
+    right: 2rem;
+    font-size: 13px;
+    margin-top: -42px;
+  }
+  #one {
+    margin-top: 0rem;
+  }
+  .Blog_builder1 {
+    margin-top: 1rem;
+  }
+  .dashboard_btn {
+    font-size: 12px;
+  }
+  .dashboard_logo {
+    font-size: 12px;
+  }
+  .name_text1 {
+    width: 100%;
+    margin-left: 7rem;
+    margin-right: 105px;
+  }
+}
+@media (max-width: 375px) {
+  .autorenew1 {
+    margin-left: -8px;
+  }
+  .reset_password {
+    font-size: 12px;
+  }
+  .ti-eye {
+    right: 1.25rem;
+    font-size: 13px;
+    margin-top: -42px;
+  }
+  .dashboard_btn {
+    font-size: 11px;
+  }
+  .custom-select {
+    font-size: 11px;
+  }
+  .Vector {
+    margin-left: 10px;
+  }
+  #fa-italic {
+    font-size: 12px;
+    margin-top: 13px;
+  }
+  .Keywords {
+    font-size: 14px;
+  }
+
+  .keywords_digit1 {
+    left: 17.75rem;
+  }
+
+  .WORDS_haeding {
+    font-size: 11px;
+  }
+  .form {
+    width: 277px;
+  }
+
+  .SignIn_heading {
+    font-size: 16px;
+    line-height: 17px;
+  }
+}
